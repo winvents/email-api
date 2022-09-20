@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "6725c245-401a-4140-9de5-b2e8f3541e34",
+		"name": "email-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19005145"
+	},
+	"item": [
+		{
+			"name": "Send Email",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"emailFrom\" : \"winventsorg@gmail.com\",\r\n    \"emailTo\" : \"profantonio.junior@fiap.com.br\",\r\n    \"subject\" : \"E-mail enviado via API REST - Microservices\",\r\n    \"text\" : \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac sapien posuere, pharetra justo in, mollis elit. Sed tincidunt neque in lorem dapibus interdum. Ad Maiorem Dei Gloriam\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/email",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"email"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
