@@ -8,6 +8,9 @@
 | Autor               | RM                                                |
 | ----------------- | ---------------------------------------------------------------- |
 | Isabela Caovila Baldim        | 84141 |
+| João Vitor Mendes Maria       | 85041 |
+| Jonathan Rodrigues Gonçalves  | 85312 |
+| Lucas Remedi Markarian Pavão  | 84451 |
 | Matheus Nathan Modanez        | 86065 |
 
 
