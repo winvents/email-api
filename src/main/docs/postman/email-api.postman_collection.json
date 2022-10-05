@@ -13,7 +13,35 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"emailFrom\" : \"winventsorg@gmail.com\",\r\n    \"emailTo\" : \"profantonio.junior@fiap.com.br\",\r\n    \"subject\" : \"E-mail enviado via API REST - Microservices\",\r\n    \"text\" : \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac sapien posuere, pharetra justo in, mollis elit. Sed tincidunt neque in lorem dapibus interdum. Ad Maiorem Dei Gloriam\"\r\n}",
+					"raw": "{\r\n    \"emailFrom\" : \"winventsorg@gmail.com\",\r\n    \"emailTo\" : \"isacaovila@gmail.com\",\r\n    \"subject\" : \"Hello e-sabela. E-mail enviado via API REST - Microservices\",\r\n    \"text\" : \"Hello e-sabela. AMDG. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac sapien posuere, pharetra justo in, mollis elit. Sed tincidunt neque in lorem dapibus interdum. Ad Maiorem Dei Gloriam\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/email",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"email"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List sent emails",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"emailFrom\" : \"winventsorg@gmail.com\",\r\n    \"emailTo\" : \"isacaovila@gmail.com\",\r\n    \"subject\" : \"Hello e-sabela. E-mail enviado via API REST - Microservices\",\r\n    \"text\" : \"Hello e-sabela. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac sapien posuere, pharetra justo in, mollis elit. Sed tincidunt neque in lorem dapibus interdum. Ad Maiorem Dei Gloriam\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
