@@ -21,12 +21,12 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/email",
+					"raw": "http://localhost:8081/email",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8080",
+					"port": "8081",
 					"path": [
 						"email"
 					]
@@ -37,24 +37,15 @@
 		{
 			"name": "List sent emails",
 			"request": {
-				"method": "POST",
+				"method": "GET",
 				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n    \"emailFrom\" : \"winventsorg@gmail.com\",\r\n    \"emailTo\" : \"isacaovila@gmail.com\",\r\n    \"subject\" : \"Hello e-sabela. E-mail enviado via API REST - Microservices\",\r\n    \"text\" : \"Hello e-sabela. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac sapien posuere, pharetra justo in, mollis elit. Sed tincidunt neque in lorem dapibus interdum. Ad Maiorem Dei Gloriam\"\r\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
 				"url": {
-					"raw": "http://localhost:8080/email",
+					"raw": "http://localhost:8081/email",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8080",
+					"port": "8081",
 					"path": [
 						"email"
 					]
